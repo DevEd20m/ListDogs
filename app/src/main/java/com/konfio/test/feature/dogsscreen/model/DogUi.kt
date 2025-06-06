@@ -1,7 +1,7 @@
-package com.konfio.domain
+package com.konfio.test.feature.dogsscreen.model
 
-data class DogsDomain(
-    val id: Int = 0,
+data class DogUi(
+    val id: Int,
     val dogName: String,
     val description: String,
     val age: Int,

@@ -6,7 +6,7 @@ import com.konfio.data.database.models.DogEntity
 @Database(entities = [DogEntity::class], version = 1)
 abstract class KonfioDatabase : RoomDatabase() {
 
-    abstract fun getDao(): Dao
+    abstract fun getDao(): DogsDao
 
     companion object {
         const val DATABASE_NAME = "konfio_database"

@@ -58,7 +58,12 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
     implementation(libs.hilt.navigation.compose)
+    implementation(libs.arrow.core)
+    implementation(libs.arrow.fx.coroutines)
+    implementation(libs.constraint.compose)
+    implementation(libs.android.coil)
 
     implementation(project(":domain"))
     implementation(project(":data"))
+    implementation(project(":core:common"))
 }

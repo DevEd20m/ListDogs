@@ -1,7 +1,8 @@
 package com.konfio.test.di
 
-import com.konfio.domain.GetDogsUseCase
-import com.konfio.domain.repository.Repository
+import com.konfio.domain.repository.DogsRepository
+import com.konfio.domain.usecase.GetDogsUseCase
+import com.konfio.domain.usecase.GetDogsUseCaseImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,5 +15,5 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideGetDogsUseCase(repository: Repository): GetDogsUseCase = GetDogsUseCase(repository)
+    fun provideGetDogsUseCase(repository: DogsRepository): GetDogsUseCase = GetDogsUseCaseImpl(repository)
 }

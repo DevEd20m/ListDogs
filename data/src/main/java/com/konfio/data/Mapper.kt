@@ -2,7 +2,7 @@ package com.konfio.data
 
 import com.konfio.data.database.models.DogEntity
 import com.konfio.data.network.models.DogRequest
-import com.konfio.domain.DogsDomain
+import com.konfio.domain.models.DogsDomain
 
 fun DogsDomain.toEntity(): DogEntity = DogEntity(
     dogName = dogName,
