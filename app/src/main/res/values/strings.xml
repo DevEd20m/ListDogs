@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KonfioTest</string>
+    <string name="app_bar_title">Dogs We Love</string>
+    <string name="dog_image_content_desc">Example</string>
+    <string name="dog_age">Almost %1$d years</string>
+    <string name="error_message_default">Ocurrió un error</string>
 </resources>

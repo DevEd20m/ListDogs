@@ -1,4 +1,4 @@
-package com.konfio.test
+package com.konfio.common
 
 import org.junit.Test
 

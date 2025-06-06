@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "KonfioTest"
 include(":app")
+include(":data")
+include(":core:common")
+include(":domain")
